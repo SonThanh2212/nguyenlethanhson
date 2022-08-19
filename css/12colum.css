@@ -1,0 +1,173 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+/*reset CSS*/
+body{color: #1F1F1F}
+.container-lg{
+	width: 1200px;
+	margin: 0 auto;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+h1{
+	font-size: 80px;
+	font-weight: 400;
+	line-height: 130%;
+	letter-spacing: 0.1em;
+}
+.bg-primary{
+	background: #1168CC
+}
+.bg-secondary{
+	background: #192232
+}
+.bg-dark{
+	background: #0E0E0E
+}
+.bg-light{
+	color: #E3E3E3;
+}
+.bg-success{
+	background: #75CA65;
+}
+.bg-warning{
+	background: #FAC656;
+}
+.bg-error{
+	background: #BA0202;
+}
+.bg-link{
+	background: #FAC656;
+}
+.text-primary{
+	background: #1168CC
+}
+.text-secondary{
+	background: #192232
+}
+.text-light{
+	color: #E3E3E3;
+}
+.btn{
+	padding: 8px 40px;
+	text-decoration: none;
+}
+.btn-primary{
+	background: #1168CC;
+	color: white;
+}
+.btn-secondary{
+	background: #192232;
+	color: white;
+}
+.btn-white{
+	background: #E8E8E8;
+	color: #1F1F1F;
+}
+.row{
+	display: flex; 
+	flex-wrap: wrap;
+}
+.row1{
+	display: flex;
+	justify-content:flex-start;
+	
+}
+.justify-start{
+	justify-content: flex-start;
+}
+.justify-center{
+	justify-content: center;
+}
+.justify-end{
+	justify-content: flex-end;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.justify-around{
+	justify-content: space-around;
+}
+.align-item-start{
+	align-items: flex-start;
+}
+.align-item-center{
+	align-items: center
+}
+.align-item-end{
+	align-items: flex-end
+}
+.row>[class*="col-"]{
+	padding: 12px;
+}
+.g-0>[class*="col-"]{
+	padding: 0;
+}
+.g-1>[class*="col-"]{
+	padding: 4px;
+}
+.g-2>[class*="col-"]{
+	padding: 8px;
+}
+.g-3>[class*="col-"]{
+	padding: 16px;
+}
+.col-1{
+	width: 8.33%
+}
+.col-2{
+	width: 16.66%
+}
+.col-3{
+	width: 25%
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%
+}
+.col-6{
+	width: 50%
+}
+.col-7{
+	width: 58.33%
+}
+.col-8{
+	width: 66.66%
+}
+.col-9{
+	width: 75%
+}
+.col-10{
+	width: 83.33%
+}
+.col-11{
+	width: 91.66%
+}
+.col-12{
+	width: 100%
+}
+.p-0{
+	padding: 0;
+}
+.p-1{
+	padding: 4px;
+}
+.p2{
+	padding: 8px;
+}
+.p-3{
+	padding: 16px;
+}
+.mx-auto{
+	margin: 0 auto;
+}
+.me-auto{
+	margin-left: auto;
+}
